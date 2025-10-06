@@ -1,3 +1,3 @@
 # projekt
 
-Toto je test projektu
+Toto je test
