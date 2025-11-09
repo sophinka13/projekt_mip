@@ -1,0 +1,213 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[slovak]{babel}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\geometry{margin=2.5cm}
+\setstretch{1.2}
+
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+
+\begin{document}
+\begin{center}
+    {\Large\bfseries PRÍLOHA č. 5}\\[6pt]
+    {\large NÁVRH PROJEKTU APLIKOVANÉHO VÝSKUMU}\\[3pt]
+    {\normalsize Výzva VV 2024 – Aplikovaný výskum}\\[10pt]
+    (Slovenská verzia – 1. strana formulára)
+\end{center}
+\vspace{1em}
+
+%---------------------------------------------------------
+\section*{1. Základné údaje o projekte}
+
+\noindent\textbf{evidencne cislo projektu: ---}
+\\[6pt]
+
+\noindent\textbf{datum podania: --- }
+\\[6pt]
+
+\noindent\textbf{Nazov projektu:  }
+\\[6pt]
+
+\noindent\textbf{Akronym projektu: VULVAE }
+\\[6pt]
+
+\noindent\textbf{Odbor vedy a techniky: informaticke technologie } 
+\\[6pt]
+
+\noindent\textbf{charakter vyskumu: --- }
+\\[12pt]
+
+\noindent\textbf{Zaciatok riesenia pojektu: 15.10.2025 }
+\\[12pt]
+
+\noindent\textbf{Koniec riesenia pojektu: --- }
+\\
+
+\noindent\textbf{Anotacia:  }\\
+
+\noindent\textbf{Ziadatelska organizácie: STUBA}\\
+\vspace{6pt}
+
+\noindent\textbf{Pozadovane financie z APVV: 300 000}\\
+
+\noindent\textbf{Spolufinancovanie projektu: 0 }\\
+
+\noindent\textbf{Celkove naklady na projekt: 300 000 }\\
+
+\vspace{1cm}
+%---------------------------------------------------------
+\section*{2. Zoznam riesitelov}
+
+\noindent\textbf{meno a priezvisko--tituly--pracovna pozicia--datum narodenia--IČO--pocet hodin--pocet hodin v roku}\\
+[6pt]
+
+\noindent\textbf{Matus Hervay   ---   ---   21.6.2005 ---     200  200 }\\
+\noindent\textbf{ }\\
+\noindent\textbf{ }\\
+[6pt]
+
+\noindent\textbf{celkovy pocet ostatnych zaamestanci: 0}\\
+[6pt]
+\noindent\textbf{suhrnna kapacaita zamestnancov v hodinach: }\\
+
+\vspace{1cm}
+%---------------------------------------------------------
+
+\section*{3. Ciele,zamery a vystupy projektu}
+\noindent\textbf{klucove slova:} \\
+[6pt]
+
+\noindent\textbf{Ciele projektu:}\\
+[6pt]
+
+\noindent\textbf{zaradenie projektu na TRL stupnici: TRL 2}\\
+[6pt]
+
+\noindent\textbf{zdovodnenie zaradenie projektu na prislusnu TRL stupnici: Nie je k dispozícii žiadny funkčný prototyp }\\
+[6pt]
+
+\noindent\textbf{vyuzitie vysledkov riesenia v praxi: realizátor výsledkov je iný odberatel }\\
+[6pt]
+
+\noindent\textbf{Prehľad plánovaných výstupov a prínosov projektu v nadväznosti na etapy riešenia projektu,
+ktoré budú verejne dostupné: studie a vyskum}\\
+[6pt]
+
+\noindent\textbf{Telefón:} \underline{\hspace{5cm}} \hfill
+\textbf{E-mail:} \underline{\hspace{6cm}}\\[12pt]
+
+\noindent\textit{(Uveďte úplný názov, adresu a identifikačné údaje organizácie. Kontaktná osoba je osoba, ktorá komunikuje s APVV v priebehu podávania projektu.)}
+
+\vspace{1cm}
+%---------------------------------------------------------
+\section*{4. Rozpočet projektu v EUR pre ziadatela}
+
+\noindent\textbf{rok:2025}\\
+[6pt]
+\noindent\textbf{bezne priame naklady:50 000}\\
+[6pt]
+\noindent\textbf{Mzdové náklady a ostatné osobné náklady: 75 000}\\
+[6pt]
+\noindent\textbf{Zdravotné a sociálne poistenie: 25 000}\\
+[6pt]
+\noindent\textbf{Cestovné náklady: 10 000}\\
+[6pt]
+\noindent\textbf{material:40 000} 
+[6pt]
+\noindent\textbf{Služby:25 000} 
+[6pt]
+\noindent\textbf{Energie, vodné, stočné,komunikácie:25 000} 
+[6pt]
+\noindent\textbf{Náklady na popularizáciu:25 000} 
+[6pt]
+\noindent\textbf{Bežné nepriame náklady:25 000} 
+[6pt]
+\noindent\textbf{Bežné náklady spolu:300 000} 
+[6pt]
+\noindent\textbf{naklady z APVV:300 000} 
+[6pt]
+\noindent\textbf{spolufinancovanie: 0} 
+[6pt]
+\noindent\textbf{zo statu: 0} 
+[6pt]
+\noindent\textbf{zo Zahraničné: 0} 
+[6pt]
+\noindent\textbf{zo Súkromné: 0} 
+[6pt]
+\noindent\textbf{Celkové náklady: 300 000} 
+[12pt]
+
+\section*{Rozpis predpokladaných nákladov uplatňovaných z APVV}
+\noindent\textbf{Mzdové náklady a ostatné osobné náklady: 75 000} 
+[6pt]
+\noindent\textbf{Zdravotné a sociálne poistenie: 25 000} 
+[6pt]
+\noindent\textbf{Cestovné náklady: 10 000} 
+[6pt]
+\noindent\textbf{material:40 000} 
+[6pt]
+\noindent\textbf{Služby:25 000} 
+[6pt]
+\noindent\textbf{Energie, vodné, stočné,komunikácie:25 000} 
+[6pt]
+\noindent\textbf{Náklady na popularizáciu:25 000} 
+[6pt]
+\noindent\textbf{Bežné nepriame náklady:25 000} 
+[12pt]
+
+\section*{Sumárny rozpočet projektu}
+
+\noindent\textbf{rok:2025}\\
+[6pt]
+\noindent\textbf{bezne priame naklady:50 000}\\
+[6pt]
+\noindent\textbf{Mzdové náklady a ostatné osobné náklady: 75 000}\\
+[6pt]
+\noindent\textbf{Zdravotné a sociálne poistenie: 25 000}\\
+[6pt]
+\noindent\textbf{Cestovné náklady: 10 000}\\
+[6pt]
+\noindent\textbf{material:40 000} 
+[6pt]
+\noindent\textbf{Služby:25 000} 
+[6pt]
+\noindent\textbf{Energie, vodné, stočné,komunikácie:25 000} 
+[6pt]
+\noindent\textbf{Náklady na popularizáciu:25 000} 
+[6pt]
+\noindent\textbf{Bežné nepriame náklady:25 000} 
+[6pt]
+\noindent\textbf{Bežné náklady spolu:300 000} 
+[6pt]
+\noindent\textbf{naklady z APVV:300 000} 
+[6pt]
+\noindent\textbf{spolufinancovanie: 0} 
+[6pt]
+\noindent\textbf{zo statu: 0} 
+[6pt]
+\noindent\textbf{zo Zahraničné: 0} 
+[6pt]
+\noindent\textbf{zo Súkromné: 0} 
+[6pt]
+\noindent\textbf{Celkové náklady: 300 000} 
+[12pt]
+
+\vspace{1cm}
+%---------------------------------------------------------
+\section*{5. Harmonogram projektu}
+\noindent\textbf{zaciatok etapy --- koniec etapy ---  nazov etapy} 
+[6pt]
+\noindent\textbf{1.10 --- 12.10 ---  Zameranie projektu, názov, akronym, anotácia}
+[6pt]
+\noindent\textbf{12.10 --- 9.11 ---  Predbežná verzia projektu}
+[6pt]
+\noindent\textbf{9.11 --- 7.12 ---  Slajdy prezentácie}
+[6pt]
+
+
+\end{document}
