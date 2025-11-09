@@ -48,7 +48,8 @@
 \noindent\textbf{Koniec riesenia pojektu: --- }
 \\
 
-\noindent\textbf{Anotacia: Téma sa zaoberá využitím umelej inteligencie (AI) v zdravotníckych zariadeniach s dôrazom na zefektívnenie a urýchlenie administratívnych procesov.
+\noindent\textbf{Anotacia:}\\
+\noindent\textbf{Téma sa zaoberá využitím umelej inteligencie (AI) v zdravotníckych zariadeniach s dôrazom na zefektívnenie a urýchlenie administratívnych procesov.
 Cieľom je poukázať na možnosti, ako moderné technológie dokážu znížiť záťaž zdravotníckeho personálu, minimalizovať chyby a zvýšiť kvalitu poskytovaných služieb.
 AI umožňuje automatizáciu spracovania dokumentácie, plánovanie termínov pacientov, správu poistných údajov a komunikáciu prostredníctvom chatbotov.
 Vďaka analýze dát môže tiež predvídať potreby strediska a prispieť k efektívnejšiemu využitiu zdrojov.
@@ -63,57 +64,53 @@ Zavádzanie AI do zdravotníctva neznamená nahradenie ľudí, ale podporu ich p
 
 \noindent\textbf{Celkove naklady na projekt: 300 000 }\\
 
-\vspace{1cm}
+\vspace{0.5cm}
 %---------------------------------------------------------
 \section*{2. Zoznam riesitelov}
 
-\noindent\textbf{meno a priezvisko--tituly--pracovna pozicia--datum narodenia--IČO--pocet hodin--pocet hodin v roku}\\
+\noindent\textbf{Format: \\  meno a priezvisko, tituly, pracovna pozicia, datum narodenia, IČO, pocet hodin, pocet hodin v roku}\\
 [6pt]
 
-\noindent\textbf{Matus Hervay   ---   ---   21.6.2005 ---     200  200 }\\
-\noindent\textbf{ }\\
-\noindent\textbf{ }\\
+\noindent\textbf{Matus Hervay  , ---  , ---  , 21.6.2005 ,---  ,   200   ,   200 }\\
+\noindent\textbf{Sophie hetešová , ---  , ---  , GDPR ,---  ,   200  ,   200 }\\
+\noindent\textbf{Daniela hanusniakova , ---  , ---  , GDPR , ---  ,   200   ,   200 }\\
 [6pt]
 
 \noindent\textbf{celkovy pocet ostatnych zaamestanci: 0}\\
 [6pt]
-\noindent\textbf{suhrnna kapacaita zamestnancov v hodinach: }\\
+\noindent\textbf{suhrnna kapacaita zamestnancov v hodinach: 600}
 
-\vspace{1cm}
+\vspace{0.5cm}
 %---------------------------------------------------------
 
 \section*{3. Ciele,zamery a vystupy projektu}
-\noindent\textbf{klucove slova:} \\
+
+\noindent\textbf{klucove slova: AI, zdravotne zariadenia, administrativna cinnost} \\
 [6pt]
 
-\noindent\textbf{Ciele projektu:}\\
+\noindent\textbf{Ciele projektu: vytvorenie systemu na urychlenie administrativnej prace v zdravotnych zariadeniach}\\
 [6pt]
 
 \noindent\textbf{zaradenie projektu na TRL stupnici: TRL 2}\\
 [6pt]
 
-\noindent\textbf{zdovodnenie zaradenie projektu na prislusnu TRL stupnici: Nie je k dispozícii žiadny funkčný prototyp }\\
+\noindent\textbf{zdovodnenie zaradenie projektu na prislusnu TRL stupnici:  Nie je k dispozícii žiadny funkčný prototyp }\\
 [6pt]
 
 \noindent\textbf{vyuzitie vysledkov riesenia v praxi: realizátor výsledkov je iný odberatel }\\
 [6pt]
 
 \noindent\textbf{Prehľad plánovaných výstupov a prínosov projektu v nadväznosti na etapy riešenia projektu,
-ktoré budú verejne dostupné: studie a vyskum}\\
-[6pt]
+ktoré budú verejne dostupné:\\ Studie, vyskum a prezentacia}
 
-\noindent\textbf{Telefón:} \underline{\hspace{5cm}} \hfill
-\textbf{E-mail:} \underline{\hspace{6cm}}\\[12pt]
 
-\noindent\textit{(Uveďte úplný názov, adresu a identifikačné údaje organizácie. Kontaktná osoba je osoba, ktorá komunikuje s APVV v priebehu podávania projektu.)}
-
-\vspace{1cm}
+\vspace{0.5cm}
 %---------------------------------------------------------
 \section*{4. Rozpočet projektu v EUR pre ziadatela}
 
-\noindent\textbf{rok:2025}\\
+\noindent\textbf{rok: 2025}\\
 [6pt]
-\noindent\textbf{bezne priame naklady:50 000}\\
+\noindent\textbf{bezne priame naklady: 50 000}\\
 [6pt]
 \noindent\textbf{Mzdové náklady a ostatné osobné náklady: 75 000}\\
 [6pt]
@@ -121,54 +118,55 @@ ktoré budú verejne dostupné: studie a vyskum}\\
 [6pt]
 \noindent\textbf{Cestovné náklady: 10 000}\\
 [6pt]
-\noindent\textbf{material:40 000} 
+\noindent\textbf{material: 40 000} \\
 [6pt]
-\noindent\textbf{Služby:25 000} 
+\noindent\textbf{Služby: 25 000} \\
 [6pt]
-\noindent\textbf{Energie, vodné, stočné,komunikácie:25 000} 
+\noindent\textbf{Energie, vodné, stočné,komunikácie: 25 000} \\
 [6pt]
-\noindent\textbf{Náklady na popularizáciu:25 000} 
+\noindent\textbf{Náklady na popularizáciu: 25 000} \\
 [6pt]
-\noindent\textbf{Bežné nepriame náklady:25 000} 
+\noindent\textbf{Bežné nepriame náklady: 25 000} \\
 [6pt]
-\noindent\textbf{Bežné náklady spolu:300 000} 
+\noindent\textbf{Bežné náklady spolu: 300 000} \\
 [6pt]
-\noindent\textbf{naklady z APVV:300 000} 
+\noindent\textbf{naklady z APVV: 300 000} \\
 [6pt]
-\noindent\textbf{spolufinancovanie: 0} 
+\noindent\textbf{spolufinancovanie: 0} \\
 [6pt]
-\noindent\textbf{zo statu: 0} 
+\noindent\textbf{zo statu: 0} \\
 [6pt]
-\noindent\textbf{zo Zahraničné: 0} 
+\noindent\textbf{zo Zahraničné: 0} \\
 [6pt]
-\noindent\textbf{zo Súkromné: 0} 
+\noindent\textbf{zo Súkromné: 0} \\
 [6pt]
-\noindent\textbf{Celkové náklady: 300 000} 
+\noindent\textbf{Celkové náklady: 300 000} \\
 [12pt]
 
 \section*{Rozpis predpokladaných nákladov uplatňovaných z APVV}
-\noindent\textbf{Mzdové náklady a ostatné osobné náklady: 75 000} 
+
+\noindent\textbf{Mzdové náklady a ostatné osobné náklady: 75 000} \\
 [6pt]
-\noindent\textbf{Zdravotné a sociálne poistenie: 25 000} 
+\noindent\textbf{Zdravotné a sociálne poistenie: 25 000} \\
 [6pt]
-\noindent\textbf{Cestovné náklady: 10 000} 
+\noindent\textbf{Cestovné náklady: 10 000} \\
 [6pt]
-\noindent\textbf{material:40 000} 
+\noindent\textbf{material: 40 000} \\
 [6pt]
-\noindent\textbf{Služby:25 000} 
+\noindent\textbf{Služby: 25 000} \\
 [6pt]
-\noindent\textbf{Energie, vodné, stočné,komunikácie:25 000} 
+\noindent\textbf{Energie, vodné, stočné,komunikácie: 25 000} \\
 [6pt]
-\noindent\textbf{Náklady na popularizáciu:25 000} 
+\noindent\textbf{Náklady na popularizáciu: 25 000} \\
 [6pt]
-\noindent\textbf{Bežné nepriame náklady:25 000} 
+\noindent\textbf{Bežné nepriame náklady: 25 000} \\
 [12pt]
 
 \section*{Sumárny rozpočet projektu}
 
-\noindent\textbf{rok:2025}\\
+\noindent\textbf{rok: 2025}\\
 [6pt]
-\noindent\textbf{bezne priame naklady:50 000}\\
+\noindent\textbf{bezne priame naklady: 50 000}\\
 [6pt]
 \noindent\textbf{Mzdové náklady a ostatné osobné náklady: 75 000}\\
 [6pt]
@@ -176,41 +174,41 @@ ktoré budú verejne dostupné: studie a vyskum}\\
 [6pt]
 \noindent\textbf{Cestovné náklady: 10 000}\\
 [6pt]
-\noindent\textbf{material:40 000} 
+\noindent\textbf{material: 40 000} \\
 [6pt]
-\noindent\textbf{Služby:25 000} 
+\noindent\textbf{Služby: 25 000} \\
 [6pt]
-\noindent\textbf{Energie, vodné, stočné,komunikácie:25 000} 
+\noindent\textbf{Energie, vodné, stočné,komunikácie: 25 000} \\
 [6pt]
-\noindent\textbf{Náklady na popularizáciu:25 000} 
+\noindent\textbf{Náklady na popularizáciu: 25 000} \\
 [6pt]
-\noindent\textbf{Bežné nepriame náklady:25 000} 
+\noindent\textbf{Bežné nepriame náklady: 25 000} \\
 [6pt]
-\noindent\textbf{Bežné náklady spolu:300 000} 
+\noindent\textbf{Bežné náklady spolu: 300 000} \\
 [6pt]
-\noindent\textbf{naklady z APVV:300 000} 
+\noindent\textbf{naklady z APVV: 300 000} \\
 [6pt]
-\noindent\textbf{spolufinancovanie: 0} 
+\noindent\textbf{spolufinancovanie: 0} \\
 [6pt]
-\noindent\textbf{zo statu: 0} 
+\noindent\textbf{zo statu: 0} \\
 [6pt]
-\noindent\textbf{zo Zahraničné: 0} 
+\noindent\textbf{zo Zahraničné: 0} \\
 [6pt]
-\noindent\textbf{zo Súkromné: 0} 
+\noindent\textbf{zo Súkromné: 0} \\
 [6pt]
-\noindent\textbf{Celkové náklady: 300 000} 
+\noindent\textbf{Celkové náklady: 300 000} \\
 [12pt]
 
 \vspace{1cm}
 %---------------------------------------------------------
 \section*{5. Harmonogram projektu}
-\noindent\textbf{zaciatok etapy --- koniec etapy ---  nazov etapy} 
+\noindent\textbf{zaciatok etapy --- koniec etapy ---  nazov etapy} \\
 [6pt]
-\noindent\textbf{1.10 --- 12.10 ---  Zameranie projektu, názov, akronym, anotácia}
+\noindent\textbf{1.10 --- 12.10 ---  Zameranie projektu, názov, akronym, anotácia}\\
 [6pt]
-\noindent\textbf{12.10 --- 9.11 ---  Predbežná verzia projektu}
+\noindent\textbf{12.10 --- 9.11 ---  Predbežná verzia projektu}\\
 [6pt]
-\noindent\textbf{9.11 --- 7.12 ---  Slajdy prezentácie}
+\noindent\textbf{9.11 --- 7.12 ---  Slajdy prezentácie}\\
 [6pt]
 
 
