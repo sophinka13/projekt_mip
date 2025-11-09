@@ -47,4 +47,66 @@ Ekonomický prínos projektu spočíva v úspore ľudských zdrojov, znížení 
 
 Opatrenia na maximalizáciu dopadu projektu zahŕňajú úzku spoluprácu s partnermi z praxe – nemocnicami, poisťovňami a výskumnými organizáciami – už počas vývoja riešení. Projekt plánuje tiež priebežnú komunikáciu výsledkov prostredníctvom odborných seminárov, vedeckých konferencií a publikácií, ako aj využitie populárno-náučných kanálov na zvýšenie povedomia o možnostiach umelej inteligencie v zdravotnej starostlivosti.
 
+\section{Projektový plán a výstupy}
+
+Realizácia projektu je rozdelená do dvoch hlavných fáz, pričom celkové trvanie je naplánované na dva roky.
+
+\subsection{Fáza 1 – Plánovanie projektu (1. rok)}
+
+Táto fáza sa zameriava na zber informácií, analýzu potrieb zdravotníckych zariadení a overenie dopytu po navrhovanom riešení. V rámci tejto fázy sa uskutoční:
+\begin{itemize}
+    \item analýza existujúcich administratívnych procesov v zdravotníctve,
+    \item prieskum technologických možností pre implementáciu umelej inteligencie,
+    \item hodnotenie ekonomickej a technickej uskutočniteľnosti projektu,
+    \item návrh metodiky spolu so špecifikáciou požiadaviek na vytvorenie prototypu.
+\end{itemize}
+
+Hlavným cieľom tejto fázy je vypracovať komplexný plán implementácie a potvrdiť realizovateľnosť projektu na základe získaných dát.
+
+\subsection{Fáza 2 – Tvorba prototypu (2. rok)}
+
+V druhej fáze sa zameriame na vývoj a testovanie prototypu systému umelej inteligencie. Tento prototyp bude slúžiť na automatizáciu administratívnych úkonov, ako sú:
+\begin{itemize}
+    \item spracovanie dokumentácie,
+    \item plánovanie termínov pre pacientov,
+    \item optimalizácia čakacích dôb u lekárov.
+\end{itemize}
+
+V tejto fáze bude prebiehať:
+\begin{itemize}
+    \item vývoj modelu umelej inteligencie a jeho integrácia s existujúcimi informačnými systémami,
+    \item testovanie a validácia prototypu v reálnych podmienkach,
+    \item zber spätnej väzby od zdravotníckeho personálu a úpravy na základe testovania.
+\end{itemize}
+
+Výstupom projektu bude funkčný prototyp systému, ktorý prispeje k skráteniu čakacích dôb u lekárov a efektívnejšiemu riadeniu administratívnych procesov.
+
+\section{Projektový manažment}
+
+Projekt bude riadený podľa princípov projektového manažmentu metodikou PMI (Project Management Institute). Každá fáza bude rozdelená na pracovné balíky s jasne definovanými míľnikmi a zodpovednými osobami. Riadenie rizík, komunikácia medzi partnermi a priebežné hodnotenie plnenia cieľov budú zabezpečené prostredníctvom pravidelných kontrolných stretnutí a priebežných správ o pokroku.
+
+\section{Riziká implementácie}
+
+Medzi hlavné riziká patrí:
+\begin{itemize}
+    \item nedostatočná kvalita alebo dostupnosť dát,
+    \item pomalá adopcia technológie zo strany zdravotníckeho personálu,
+    \item technické problémy pri integrácii systému do existujúcich informačných štruktúr.
+\end{itemize}
+
+Tieto riziká budú zmierňované dôslednou analýzou dát, školeniami používateľov a flexibilnou architektúrou systému, ktorá umožní jednoduché prispôsobenie rôznym podmienkam zdravotníckych zariadení.
+
+\section{Rozpočet a infraštruktúra}
+
+Rozpočet projektu je navrhnutý tak, aby bol primeraný cieľom a rozsahu riešenia. Zohľadňuje náklady na:
+\begin{itemize}
+    \item personál,
+    \item vývoj softvéru,
+    \item testovanie,
+    \item technickú infraštruktúru.
+\end{itemize}
+
+Zúčastnené pracoviská majú potrebnú IT infraštruktúru a odborné zázemie, vrátane serverov, dátových úložísk a odborníkov v oblastiach umelej inteligencie, dátovej analýzy a zdravotníckych informačných systémov.
+
+
 \end{document}
