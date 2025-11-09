@@ -1,0 +1,50 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[slovak]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{geometry}
+
+\geometry{margin=2.5cm}
+\setstretch{1.2}
+\setlist[itemize]{topsep=3pt, itemsep=3pt, leftmargin=1.5cm}
+
+\begin{document}
+
+\section{Excelentnosť}
+
+Tento projekt sa zameriava na využívanie umelej inteligencie v zdravotníckych zariadeniach s cieľom optimalizovať a urýchliť administratívne procesy. Naše navrhované riešenia zahŕňajú automatizáciu spracovania zdravotných dokumentácií, inteligentné plánovanie termínov, správu poistných údajov a implementáciu chatbotov pre efektívnejšiu komunikáciu s pacientmi. Očakávanými výsledkami je zníženie administratívnej záťaže zdravotníckeho personálu, spresnenie údajov a nárast kvality poskytovaných služieb pacientom.
+
+Aktuálnosť projektu vychádza z rastúceho tlaku na digitalizáciu zdravotníctva. Originalita spočíva v komplexnom prístupe k implementácii nástrojov umelej inteligencie do viacerých procesov naraz, s dôrazom na ich integráciu do existujúcich informačných systémov zdravotných zariadení.
+
+Projekt sa zakladá na aktuálnych poznatkoch v oblasti umelej inteligencie, strojového učenia a spracovania prirodzeného jazyka (NLP), ako aj na predchádzajúcich výskumoch v oblasti eHealth. Výsledky týchto výskumov tvoria základ pre vypracovanie metodiky, ktorá bude zahŕňať analýzu dátových tokov, návrh AI modelov, testovanie prototypu a jeho následnú validáciu v reálnych podmienkach.
+
+\subsection*{Ciele projektu}
+\begin{itemize}
+    \item vyvinúť a otestovať AI systém pre automatizáciu administratívnych procesov v zdravotníctve,
+    \item znížiť časové zaťaženie zdravotníckeho personálu o minimálne 30\,\%,
+    \item zvýšiť presnosť spracovania údajov o 20\,\%,
+    \item vytvoriť odporúčací rámec pre zavádzanie AI v slovenských zdravotníckych zariadeniach.
+\end{itemize}
+
+Metodológia riešenia sa zakladá na kombinácii analytických, experimentálnych a validačných prístupov. Výber tejto metodiky je opodstatnený, pretože projekt má interdisciplinárny charakter a spája oblasti informatiky, dátovej vedy a zdravotníckeho manažmentu.
+
+Hlavný riešiteľ má bohaté skúsenosti s aplikovaným výskumom v oblasti informačných technológií a ich uplatnením v zdravotnej starostlivosti. Medzi jeho najvýznamnejšie výstupy za posledných päť rokov patrí publikovanie v medzinárodných databázach, ako aj účasť na projektoch zameraných na digitalizáciu zdravotníckych procesov. 
+
+Riešiteľský tím tvorí skupina odborníkov v oblastiach AI, dátovej analýzy, zdravotníckej informatiky a softvérového inžinierstva. Organizácie zapojené do projektu majú potrebnú infraštruktúru a odborné zázemie na úspešné uskutočnenie projektu.
+
+Projekt tiež plánuje aktívne zapojenie mladých výskumníkov a doktorandov do všetkých fáz riešenia, čo im umožní rozvíjať svoje zručnosti v oblasti AI a eHealth a podporí generačnú obnovu výskumného potenciálu v tejto oblasti.
+
+\section{Dopad}
+
+Projekt má potenciál významne prispieť k rozvoju poznania, aplikovaného výskumu a inovácií v oblasti zdravotnej starostlivosti. Implementácia umelej inteligencie do administratívnych procesov prinesie nové technologické metódy, ktoré umožnia efektívnejšie využívanie ľudských zdrojov a automatizáciu úloh, ktoré v súčasnosti vyžadujú manuálny zásah. To povedie nielen k úspore času, ale aj k zvýšeniu presnosti a spoľahlivosti spracovávaných údajov. Projekt tiež prispeje k spoločenskej inovácii, zlepšeniu prístupu pacientov k zdravotníckym službám a zefektívneniu komunikácie medzi pacientmi a zdravotníckym personálom.
+
+Očakávané výsledky projektu budú aplikovateľné nielen na Slovensku, ale aj v zahraničí. Vyvinuté riešenia budú prispôsobiteľné rôznym informačným systémom zdravotníckych zariadení, čo zvýši ich prenositeľnosť a možnosti medzinárodného využitia. Na Slovensku môžu výsledky prispieť k digitalizácii nemocníc, zlepšeniu efektivity poisťovní a podporujúcich zdravotných inštitúcií.
+
+Ekonomický prínos projektu spočíva v úspore ľudských zdrojov, znížení administratívnych nákladov a optimalizácii procesov, ktoré často spomaľujú chod zdravotníckych zariadení. Z dlhodobého hľadiska môže zavedenie AI systémov prispieť aj k zvýšeniu kvality života obyvateľov – skrátením čakacích dôb, znížením chybovosti pri evidencii údajov a uvoľnením kapacít zdravotníkov pre priamu starostlivosť o pacientov.
+
+Opatrenia na maximalizáciu dopadu projektu zahŕňajú úzku spoluprácu s partnermi z praxe – nemocnicami, poisťovňami a výskumnými organizáciami – už počas vývoja riešení. Projekt plánuje tiež priebežnú komunikáciu výsledkov prostredníctvom odborných seminárov, vedeckých konferencií a publikácií, ako aj využitie populárno-náučných kanálov na zvýšenie povedomia o možnostiach umelej inteligencie v zdravotnej starostlivosti.
+
+\end{document}
