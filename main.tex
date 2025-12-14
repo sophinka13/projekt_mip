@@ -1,133 +1,84 @@
 % Metódy inžinierskej práce
-
-\documentclass[10pt,twoside,slovak,a4paper]{article}
-
+\documentclass[12pt,a4paper]{article}
 \usepackage[slovak]{babel}
-%\usepackage[T1]{fontenc}
-\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
 \usepackage[utf8]{inputenc}
-\usepackage{graphicx}
-\usepackage{url} % príkaz \url na formátovanie URL
-\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{geometry}
+\geometry{margin=3cm}
+\usepackage{titlesec}
+\usepackage{lmodern}
 
-\usepackage{cite}
-%\usepackage{times}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.8em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.8em}{}
 
-\pagestyle{headings}
-
-\title{Vyuzitie umelej inteligencie v zdravotnych strediskach pre urychlenie administrativnej činnost\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2025/26, vedenie: Martin Sabo}} % meno a priezvisko vyučujúceho na cvičeniach
-
-\author{Sophie hetešová, Matus hervay, Daniela hanusniakova\\[2pt]
-	{\small Akronym = VULVAE    Vyuzitie Umelej inteLigencie V zdrAvotnych strEdiskach
-	{\small Slovenská technická univerzita v Bratislave}\\
-	{\small Fakulta informatiky a informačných technológií}\\
-	{\small \texttt{...@stuba.sk}}
-	}
-
-\date{\small 2. oktober 2025} % upravte
-
-
+\setstretch{1.4}
 
 \begin{document}
 
-\maketitle
-
-\section{}
-
-\begin{anotacia}
-Téma sa zaoberá využitím umelej inteligencie (AI) v zdravotníckych zariadeniach s dôrazom na zefektívnenie a urýchlenie administratívnych procesov.
-Cieľom je poukázať na možnosti, ako moderné technológie dokážu znížiť záťaž zdravotníckeho personálu, minimalizovať chyby a zvýšiť kvalitu poskytovaných služieb.
-AI umožňuje automatizáciu spracovania dokumentácie, plánovanie termínov pacientov, správu poistných údajov a komunikáciu prostredníctvom chatbotov.
-Vďaka analýze dát môže tiež predvídať potreby strediska a prispieť k efektívnejšiemu využitiu zdrojov.
-Zavádzanie AI do zdravotníctva neznamená nahradenie ľudí, ale podporu ich práce, čím sa vytvára viac priestoru pre samotnú starostlivosť o pacienta.
-\end{anotacia}
-
-
+\begin{center}
+    {\LARGE \textbf{Využitie umelej inteligencie v zdravotníctve pre urýchlenie administratívnych činností}}\\[0.6cm]
+    {\large Projektová správa}\\[1cm]
+\end{center}
 
 \section{Úvod}
 
-Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
+Umelá inteligencia je jednou z najvýraznejšie a najrýchlejšie sa rozvíjajúcich oblastí súčasnej éry. Nachádza si širokospektrálne využitie v spoločnosti. Integruje ľudskú skúsenosť a inteligenciu k tomu, aby napodobnila myslenie človeka tak, že dokáže brať do úvahy súčasne ohromné množstvo dát a údajov, vďaka čomu môže robiť presné odhady.
 
-Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
-Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlený v časti~\ref{nejaka}.
-Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
-Záverečné poznámky prináša časť~\ref{zaver}.
+Každý človek chce byť zdravý a očakáva, že jeho fungovanie a zdravotný stav bude pod dostatočnou kontrolou. Aj z tohto dôvodu je uplatnenie umelej inteligencie v zdravotníctve hádam najočakávanejšou udalosťou súčasnej doby. Diagnostika a včasné odhalenie chorôb ako aj rýchla a účinná liečba založená na presných výpočtoch vychádzajúcich z veľkého množstva dát je nádejou pre budúcnosť. 
 
+V našej práci sa však chceme zaoberať hlavne využitím umelej inteligencie na odbúranie administratívnej záťaže spojenej s úkonmi v zdravotníctve. Zníženie administratívnej záťaže vytvorí predpoklad na lepší prístup personálu k liečbe samotnej.
 
+\section{Prínosy a výhody využitia AI}
 
-\section{Nejaká časť} \label{nejaka}
+Štúdia \textit{Managing Healthcare Using Artificial Intelligence} z roku 2025 uvádza, že využitie umelej inteligencie v administratívnych procesoch predstavuje zásadný krok ku digitalizácii a efektívnejšiemu fungovaniu zdravotníckych zariadení. Veľká časť pracovného času zdravotníckeho personálu, či už sestier alebo lekárov, predstavuje vypĺňanie rôznych formulárov, správ pre zdravotné poisťovne, zdravotnej dokumentácie pacientov, komunikáciu s laboratóriami a inými nemocničnými pracoviskami. 
 
-Z obr.~\ref{f:rozhod} je všetko jasné. 
+Umelá inteligencia môže toto všetko automatizovať, a tým znížiť administratívnu záťaž lekárov, sestier a ďalšieho personálu a odbúrať chyby, ktorých sa môžu z dôvodu ľudského faktora dopustiť. Takto umelá inteligencia významne zvýši presnosť spracovania dát.
 
-\begin{figure*}[tbh]
-\centering
-%\includegraphics[scale=1.0]{diagram.pdf}
-Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
-\caption{Rozhodujúci argument.}
-\label{f:rozhod}
-\end{figure*}
+V systéme, ktorý navrhujú, je umelá inteligencia schopná analyzovať a kategorizovať zdravotné záznamy, spravovať poistné údaje pacientov a generovať podklady pre lekárske správy. Vďaka tomu sa zdravotnícky personál môže z dôvodu ušetreného času sústrediť na odborný a osobný prístup k pacientovi, čím sa zvýši čas venovaný priamo komunikácii.
 
+Podľa štúdie \textit{Applications of AI in Healthcare Sector for Enhancement of Medical Decision Making and Quality of Service} z roku 2022 sa čoraz viac nemocníc a zdravotníckych spoločností obracia na AI chatboty, ktoré pacientom umožňujú rezervovať termíny, klásť otázky, vyhľadávať informácie o dostupnosti lekárov a dokonca spravovať údaje o predpisoch. Takéto riešenia šetria čas zdravotníckeho personálu, ktorý môže ušetrený čas využiť buď pre seba v rámci prestávky, alebo pre pacientov, ktorí nebudú musieť dlho čakať. Tým sa zlepšuje celková skúsenosť pacienta.
 
+Okrem úspory času je dôležitý aj ekonomický aspekt. Použitím umelej inteligencie na vykonávanie administratívnych činností výrazne znížime prevádzkové náklady. Ušetrené financie môžu byť použité na liečebné účely.
 
-\section{Iná časť} \label{ina}
+Autori Avinash Kumar a Sujata Joshi uvádzajú konkrétne výhody implementácie umelej inteligencie v administratíve: jednoduchšie a rýchlejšie objednávanie, zníženie čakacej doby, kratší čas pacientov strávený v nemocnici a úspora nákladov. 
 
-Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
+Macriga, Poorvaja a Sangeetha uvádzajú, že nasadenie umelej inteligencie v administratíve vedie k plynulejšiemu chodu zariadenia, rýchlejšiemu zdieľaniu informácií a lepšej koordinácii medzi oddeleniami.
 
-Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged, Czarnecki:Progress}. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory\cite{PLP-Framework}. Dôležité veci možno \emph{zdôrazniť kurzívou}.
+Tieto výhody dokazujú, že umelá inteligencia môže byť významným nástrojom na optimalizáciu prevádzky nemocníc a kliník a zároveň pomôže poskytovať kvalitnejšiu starostlivosť s menšou administratívnou záťažou.
 
+\section{Výzvy a riziká využitia AI}
 
-\subsection{Nejaké vysvetlenie} \label{ina:nejake}
-\input{example}
+Napriek rastúcemu použitiu umelej inteligencie v zdravotníctve existujú viaceré výzvy a riziká, ktoré treba pri jej zavádzaní riešiť. Štúdia \textit{Applications of AI in Healthcare Sector for Enhancement of Medical Decision Making and Quality of Service} uvádza, že zdravotníctvo generuje obrovské množstvo dát, ktoré sú často neúplné, nekonzistentné alebo zašumené. To sťažuje proces učenia sa algoritmov umelej inteligencie.
 
-Niekedy treba uviesť zoznam:
+Ďalším nezanedbateľným problémom je ochrana súkromia a bezpečnosť osobných údajov pacientov. Pacienti sa obávajú, že citlivé informácie o nich a ich zdravotnom stave môžu byť zneužité alebo predané. Preto je potrebné, aby systémy umelej inteligencie boli v súlade s etickými princípmi a chránili osobné údaje a dáta.
 
-\begin{itemize}
-\item jedna vec
-\item druhá vec
-	\begin{itemize}
-	\item x
-	\item y
-	\end{itemize}
-\end{itemize}
+V neposlednom rade hrozia aj kybernetické útoky, pri ktorých viac digitalizované zdravotné zariadenia môžu byť náchylnejšie na útoky z internetu, čo by znamenalo výpadok služieb.
 
-Ten istý zoznam, len číslovaný:
+Významným problémom je aj nízka úroveň digitalizačnej pripravenosti v niektorých zdravotníckych zariadeniach. Niektoré používajú rovnakú techniku ako pred dvadsiatimi rokmi. Zdravotnícki pracovníci predstavujú tiež výzvu, keďže množstvo staršieho personálu nemá skúsenosť s novou technikou. Musia pochopiť prínos umelej inteligencie, aby sa neobávali straty pracovných pozícií a zároveň sa naučili nový spôsob práce.
 
-\begin{enumerate}
-\item jedna vec
-\item druhá vec
-	\begin{enumerate}
-	\item x
-	\item y
-	\end{enumerate}
-\end{enumerate}
+\section{Prípadové štúdie využitia AI v zdravotníctve}
 
+Jedným z príkladov sú AI chatboty. Tieto rezervujú pacientom termíny, sumarizujú anamnézy a riešia poistné záležitosti. Projekty ako MFine, ADA Health či Babylon Health sa využívajú na komunikáciu s pacientmi. Vďaka nim získajú pacienti okamžité odpovede na svoje otázky. Keďže údaje o zdravotnom stave pacientov a symptómoch získajú lekári ešte pred návštevou, môžu sa lepšie pripraviť. Takto sa šetrí aj čas vyšetrenia pacienta aj čas zadávania dát. 
 
-\subsection{Ešte nejaké vysvetlenie} \label{ina:este}
+Podobný princíp sa používa aj v logistickom priemysle, kde operátor skladu využíva AI v podobe náhlavného zariadenia na identifikovanie uloženia balíkov, ich presun a kontrolu. V zdravotníctve by to mohlo byť zariadenie, do ktorého zdravotný personál diktuje anamnézu pacienta, pýta sa AI na radu alebo nechá preložiť cudzojazyčnú anamnézu pacienta.
 
-\paragraph{Veľmi dôležitá poznámka.}
-Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
+Ďalším príkladom je Royal Bolton Hospital vo Veľkej Británii, ktorá zaviedla systém qXR na čítanie RTG snímok. Umelá inteligencia výrazne skrátila čas spracovania a popisu snímok. Toto pomáha pri rýchlejšom a presnejšom rozhodovaní lekárov a zlepšuje tok dát v nemocnici.
 
+\section{Veľké jazykové modely v zdravotníctve}
 
+Veľké jazykové modely (LLM -- Large Language Models) sa rýchlo stávajú transformačným nástrojom v oblasti spracovania klinických textov a neštruktúrovaných dát v zdravotníctve, vrátane klinických poznámok, rozhovorov medzi lekárom a pacientom či elektronických zdravotných záznamov. LLM dokážu nielen generovať text, ale aj analyticky spracovávať kontext, extrahovať kľúčové informácie a sumarizovať obsah, čo má potenciál významne podporovať klinické rozhodovanie, dokumentáciu a rýchlejšiu orientáciu v komplexných dátach. Takéto modely môžu asistovať pri spracovaní veľkého množstva neštruktúrovaných textových záznamov, odpovedať na odborné otázky či sumarizovať lekárske poznámky, čím zvyšujú efektivitu a znižujú administratívnu záťaž zdravotníckeho personálu. Zároveň však odborná literatúra zdôrazňuje potrebu dôkladnej validácie modelov a odborného dohľadu, keďže výstupy generované LLM nemusia vždy presne odrážať klinickú realitu a môžu obsahovať nepresnosti.
 
-\section{Dôležitá časť} \label{dolezita}
+Autori prehľadových štúdií zároveň upozorňujú na viaceré výzvy spojené s nasadením LLM v klinickej praxi, medzi ktoré patrí ochrana osobných zdravotných údajov, algoritmická zaujatost a problematika integrácie do existujúcich nemocničných informačných systémov a elektronických zdravotných záznamov. Nedostatočné zabezpečenie dát alebo slabé riadenie prístupových práv môže viesť k narušeniu dôvernosti citlivých informácií. Okrem toho modely trénované na nevyvážených alebo neúplných dátach môžu reprodukovať existujúce zaujatosti, čo môže viesť k nespravodlivému alebo nepresnému hodnoteniu pacientov. Úspešná implementácia LLM riešení si preto vyžaduje starostlivé plánovanie interoperabilných rozhraní, súlad s platnou legislatívou a dôraz na bezpečnosť a spoľahlivosť systémov.
 
+\section{Riziká a obmedzenia AI transkripcie}
 
+Napriek významným prínosom technológií automatického rozpoznávania reči (ASR -- Automatic Speech Recognition) a generatívnej umelej inteligencie v oblasti klinickej dokumentácie existuje viacero rizík spojených s ich praktickým využitím. Prehľadové štúdie poukazujú na problémy spôsobené nízkou kvalitou vstupných dát, hlukom v prostredí, rozdielnymi prízvukmi hovoriacich alebo nejednoznačnosťou medicínskej terminológie. Nesprávna transkripcia odborných pojmov, názvov liekov alebo diagnóz môže viesť k chybám v zdravotnej dokumentácii a následne aj k nesprávnym klinickým rozhodnutiam, čo v extrémnych prípadoch môže mať vážne až fatálne dôsledky pre pacienta.
 
+Ďalším zásadným problémom je ochrana citlivých zdravotných údajov, keďže hlasové nahrávky a ich textové prepisy predstavujú osobné identifikovateľné údaje. Integrácia AI transkripčných systémov do zdravotníckych pracovných tokov musí byť v súlade s platnými legislatívnymi požiadavkami, ako je napríklad nariadenie GDPR, a s etickými princípmi ochrany súkromia pacientov. Odborné štúdie zdôrazňujú potrebu implementácie technických opatrení, ako sú šifrovanie, riadenie prístupových práv a auditovateľnosť systémov, ako aj potrebu zapojenia zdravotníckych odborníkov do kontroly a overovania výstupov AI systémov.
 
-\section{Diskusia} \label{dolezitejsia}
+\section{Záver}
 
+Umelá inteligencia už zásadne mení a v blízkej budúcnosti úplne zmení spôsob fungovania zdravotníctva. Už dnes existuje mnoho spôsobov jej využitia v praxi. Najväčšou výzvou pre náš projekt je integrácia všetkých údajov a administratívnych úkonov. Takáto integrácia by predstavovala komplexné riešenie pre zdravotníctvo – znížila by administratívnu záťaž, urýchlila prácu s pacientom a znížila finančné náklady.
 
-
-
-\section{Záver} \label{zaver} % prípadne iný variant názvu
-
-
-
-%\acknowledgement{Ak niekomu chcete poďakovať\ldots}
-
-\section{referencie} \label{referencie} 
-
-% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
-\bibliography{literatura}
-\bibliographystyle{alpha} % prípadne alpha, abbrv alebo hociktorý iný
 \end{document}
