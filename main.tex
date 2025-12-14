@@ -8,6 +8,8 @@
 \geometry{margin=3cm}
 \usepackage{titlesec}
 \usepackage{lmodern}
+\usepackage[nottoc]{tocbibind}
+\usepackage{url}
 
 \titleformat{\section}{\large\bfseries}{\thesection.}{0.8em}{}
 \titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.8em}{}
@@ -37,7 +39,7 @@ Umelá inteligencia môže toto všetko automatizovať, a tým znížiť adminis
 
 V systéme, ktorý navrhujú, je umelá inteligencia schopná analyzovať a kategorizovať zdravotné záznamy, spravovať poistné údaje pacientov a generovať podklady pre lekárske správy. Vďaka tomu sa zdravotnícky personál môže z dôvodu ušetreného času sústrediť na odborný a osobný prístup k pacientovi, čím sa zvýši čas venovaný priamo komunikácii.
 
-Podľa štúdie \textit{Applications of AI in Healthcare Sector for Enhancement of Medical Decision Making and Quality of Service} z roku 2022 sa čoraz viac nemocníc a zdravotníckych spoločností obracia na AI chatboty, ktoré pacientom umožňujú rezervovať termíny, klásť otázky, vyhľadávať informácie o dostupnosti lekárov a dokonca spravovať údaje o predpisoch. Takéto riešenia šetria čas zdravotníckeho personálu, ktorý môže ušetrený čas využiť buď pre seba v rámci prestávky, alebo pre pacientov, ktorí nebudú musieť dlho čakať. Tým sa zlepšuje celková skúsenosť pacienta.
+Podľa štúdie \cite{2,10060928,10691276,10787179,10675849,10762060,10911262,11020266,11026363,11042787,11081097}\textit{ Applications of AI in Healthcare Sector for Enhancement of Medical Decision Making and Quality of Service} z roku 2022 sa čoraz viac nemocníc a zdravotníckych spoločností obracia na AI chatboty, ktoré pacientom umožňujú rezervovať termíny, klásť otázky, vyhľadávať informácie o dostupnosti lekárov a dokonca spravovať údaje o predpisoch. Takéto riešenia šetria čas zdravotníckeho personálu, ktorý môže ušetrený čas využiť buď pre seba v rámci prestávky, alebo pre pacientov, ktorí nebudú musieť dlho čakať. Tým sa zlepšuje celková skúsenosť pacienta.
 
 Okrem úspory času je dôležitý aj ekonomický aspekt. Použitím umelej inteligencie na vykonávanie administratívnych činností výrazne znížime prevádzkové náklady. Ušetrené financie môžu byť použité na liečebné účely.
 
@@ -69,11 +71,11 @@ Podobný princíp sa používa aj v logistickom priemysle, kde operátor skladu 
 
 Automatické rozpoznávanie reči (ASR -- \textit{Automatic Speech Recognition}) predstavuje jednu z významných výziev pri využívaní umelej inteligencie v medicíne a v administratívnych procesoch zdravotníctva. Táto technológia umožňuje v reálnom čase prepis hovoreného slova zo zaznamenaného audio signálu do písanej textovej podoby. V klinickej praxi sa ASR využíva predovšetkým pri tvorbe zdravotnej dokumentácie, diktovaní lekárskych správ, zaznamenávaní komunikácie medzi lekárom a pacientom, ako aj pri tvorbe prepúšťacích správ.
 
-Podľa štúdie \textit{A Comprehensive Analysis of Speech Recognition Systems in Healthcare} sú systémy rozpoznávania reči schopné výrazne znížiť čas potrebný na vytváranie zdravotnej dokumentácie, čím prispievajú k plynulejšiemu priebehu vyšetrení a efektívnejšiemu fungovaniu nemocníc a ambulancií. Autori zároveň uvádzajú, že moderné ASR systémy založené na metódach hlbokého učenia dosahujú podstatne vyššiu presnosť v porovnaní so staršími prístupmi. Kľúčovým faktorom ich úspešnosti je trénovanie na doménovo špecifických dátach a dôsledné dodržiavanie presnej medicínskej terminológie.
+Podľa štúdie\cite{5} \textit{A Comprehensive Analysis of Speech Recognition Systems in Healthcare} sú systémy rozpoznávania reči schopné výrazne znížiť čas potrebný na vytváranie zdravotnej dokumentácie, čím prispievajú k plynulejšiemu priebehu vyšetrení a efektívnejšiemu fungovaniu nemocníc a ambulancií. Autori zároveň uvádzajú, že moderné ASR systémy založené na metódach hlbokého učenia dosahujú podstatne vyššiu presnosť v porovnaní so staršími prístupmi. Kľúčovým faktorom ich úspešnosti je trénovanie na doménovo špecifických dátach a dôsledné dodržiavanie presnej medicínskej terminológie.
 
 \subsection{Deep learning a moderné modely pre prepis reči}
 
-Rozvoj ASR systémov úzko súvisí s nástupom modelov hlbokého učenia, ako sú konvolučné neurónové siete, rekurentné neurónové siete a najnovšie transformerové architektúry. Metodologický prehľad publikovaný v štúdii \textit{Speech Technology for Healthcare: Opportunities, Challenges, and State of the Art} identifikuje deep learning ako kľúčový faktor, ktorý umožnil zásadný posun v presnosti rozpoznávania reči, a to najmä v kontexte medicínskej terminológie a náročného nemocničného prostredia. Tieto systémy musia efektívne zvládať prítomnosť šumu, rozdielne prízvuky hovoriacich a používanie vysoko špecializovanej terminológie.
+Rozvoj ASR systémov úzko súvisí s nástupom modelov hlbokého učenia, ako sú konvolučné neurónové siete, rekurentné neurónové siete a najnovšie transformerové architektúry. Metodologický prehľad publikovaný v štúdii\cite{9133298} \textit{Speech Technology for Healthcare: Opportunities, Challenges, and State of the Art} identifikuje deep learning ako kľúčový faktor, ktorý umožnil zásadný posun v presnosti rozpoznávania reči, a to najmä v kontexte medicínskej terminológie a náročného nemocničného prostredia. Tieto systémy musia efektívne zvládať prítomnosť šumu, rozdielne prízvuky hovoriacich a používanie vysoko špecializovanej terminológie.
 
 Autori uvedenej štúdie zároveň poukazujú na skutočnosť, že reč predstavuje prirodzený a ľahko dostupný zdroj dát, ktorý je možné zbierať bez narušenia klinického pracovného postupu. Z tohto dôvodu sa ASR technológie stávajú vhodným základom pre ďalšie AI systémy, ktoré nadväzujú na textový prepis, ako sú systémy sumarizácie, automatického generovania správ alebo rozhodovacej podpory v klinickej praxi.
 
@@ -81,7 +83,7 @@ Autori uvedenej štúdie zároveň poukazujú na skutočnosť, že reč predstav
 
 Samotný prepis reči do textovej podoby predstavuje iba prvý krok v automatizácii klinickej dokumentácie. Súčasným trendom je prepájanie ASR systémov s generatívnymi modelmi umelej inteligencie, najmä veľkými jazykovými modelmi (LLM -- \textit{Large Language Models}), ktoré dokážu z neštruktúrovaného textu automaticky vytvárať štruktúrované zdravotné záznamy.
 
-Štúdia \textit{A GenAI Framework for Medical Note Generation} predstavuje systém \textit{MediNotes}, ktorý kombinuje ASR, generatívne jazykové modely a prístup Retrieval-Augmented Generation (RAG) na automatickú tvorbu SOAP poznámok z rozhovorov medzi lekárom a pacientom. Výsledky ukazujú, že takýto prístup výrazne znižuje administratívnu záťaž lekárov, šetrí čas potrebný na dokumentáciu a zároveň zlepšuje celistvosť, presnosť a čitateľnosť zdravotných záznamov.
+Štúdia\cite{9133298} \textit{A GenAI Framework for Medical Note Generation} predstavuje systém \textit{MediNotes}, ktorý kombinuje ASR, generatívne jazykové modely a prístup Retrieval-Augmented Generation (RAG) na automatickú tvorbu SOAP poznámok z rozhovorov medzi lekárom a pacientom. Výsledky ukazujú, že takýto prístup výrazne znižuje administratívnu záťaž lekárov, šetrí čas potrebný na dokumentáciu a zároveň zlepšuje celistvosť, presnosť a čitateľnosť zdravotných záznamov.
 
 Podobné závery prináša aj riešenie \textit{DocGenie}, ktoré využíva pokročilé ASR modely v kombinácii s veľkými jazykovými modelmi, ako je napríklad GPT-4, na generovanie kompletných lekárskych správ z klinických rozhovorov. Autori poukazujú najmä na výrazné skrátenie času potrebného na tvorbu dokumentácie a zníženie chýb spôsobených manuálnym zapisovaním údajov.
 
@@ -100,5 +102,8 @@ Napriek významným prínosom technológií automatického rozpoznávania reči 
 \section{Záver}
 
 Umelá inteligencia už zásadne mení a v blízkej budúcnosti úplne zmení spôsob fungovania zdravotníctva. Už dnes existuje mnoho spôsobov jej využitia v praxi. Najväčšou výzvou pre náš projekt je integrácia všetkých údajov a administratívnych úkonov. Takáto integrácia by predstavovala komplexné riešenie pre zdravotníctvo – znížila by administratívnu záťaž, urýchlila prácu s pacientom a znížila finančné náklady.
+
+\bibliographystyle{alpha}
+\bibliography{literatura}
 
 \end{document}
