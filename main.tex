@@ -65,6 +65,26 @@ Podobný princíp sa používa aj v logistickom priemysle, kde operátor skladu 
 
 Ďalším príkladom je Royal Bolton Hospital vo Veľkej Británii, ktorá zaviedla systém qXR na čítanie RTG snímok. Umelá inteligencia výrazne skrátila čas spracovania a popisu snímok. Toto pomáha pri rýchlejšom a presnejšom rozhodovaní lekárov a zlepšuje tok dát v nemocnici.
 
+\section{Automatické rozpoznávanie reči v zdravotníctve}
+
+Automatické rozpoznávanie reči (ASR -- \textit{Automatic Speech Recognition}) predstavuje jednu z významných výziev pri využívaní umelej inteligencie v medicíne a v administratívnych procesoch zdravotníctva. Táto technológia umožňuje v reálnom čase prepis hovoreného slova zo zaznamenaného audio signálu do písanej textovej podoby. V klinickej praxi sa ASR využíva predovšetkým pri tvorbe zdravotnej dokumentácie, diktovaní lekárskych správ, zaznamenávaní komunikácie medzi lekárom a pacientom, ako aj pri tvorbe prepúšťacích správ.
+
+Podľa štúdie \textit{A Comprehensive Analysis of Speech Recognition Systems in Healthcare} sú systémy rozpoznávania reči schopné výrazne znížiť čas potrebný na vytváranie zdravotnej dokumentácie, čím prispievajú k plynulejšiemu priebehu vyšetrení a efektívnejšiemu fungovaniu nemocníc a ambulancií. Autori zároveň uvádzajú, že moderné ASR systémy založené na metódach hlbokého učenia dosahujú podstatne vyššiu presnosť v porovnaní so staršími prístupmi. Kľúčovým faktorom ich úspešnosti je trénovanie na doménovo špecifických dátach a dôsledné dodržiavanie presnej medicínskej terminológie.
+
+\subsection{Deep learning a moderné modely pre prepis reči}
+
+Rozvoj ASR systémov úzko súvisí s nástupom modelov hlbokého učenia, ako sú konvolučné neurónové siete, rekurentné neurónové siete a najnovšie transformerové architektúry. Metodologický prehľad publikovaný v štúdii \textit{Speech Technology for Healthcare: Opportunities, Challenges, and State of the Art} identifikuje deep learning ako kľúčový faktor, ktorý umožnil zásadný posun v presnosti rozpoznávania reči, a to najmä v kontexte medicínskej terminológie a náročného nemocničného prostredia. Tieto systémy musia efektívne zvládať prítomnosť šumu, rozdielne prízvuky hovoriacich a používanie vysoko špecializovanej terminológie.
+
+Autori uvedenej štúdie zároveň poukazujú na skutočnosť, že reč predstavuje prirodzený a ľahko dostupný zdroj dát, ktorý je možné zbierať bez narušenia klinického pracovného postupu. Z tohto dôvodu sa ASR technológie stávajú vhodným základom pre ďalšie AI systémy, ktoré nadväzujú na textový prepis, ako sú systémy sumarizácie, automatického generovania správ alebo rozhodovacej podpory v klinickej praxi.
+
+\section{Generatívna AI a automatická tvorba zdravotných záznamov}
+
+Samotný prepis reči do textovej podoby predstavuje iba prvý krok v automatizácii klinickej dokumentácie. Súčasným trendom je prepájanie ASR systémov s generatívnymi modelmi umelej inteligencie, najmä veľkými jazykovými modelmi (LLM -- \textit{Large Language Models}), ktoré dokážu z neštruktúrovaného textu automaticky vytvárať štruktúrované zdravotné záznamy.
+
+Štúdia \textit{A GenAI Framework for Medical Note Generation} predstavuje systém \textit{MediNotes}, ktorý kombinuje ASR, generatívne jazykové modely a prístup Retrieval-Augmented Generation (RAG) na automatickú tvorbu SOAP poznámok z rozhovorov medzi lekárom a pacientom. Výsledky ukazujú, že takýto prístup výrazne znižuje administratívnu záťaž lekárov, šetrí čas potrebný na dokumentáciu a zároveň zlepšuje celistvosť, presnosť a čitateľnosť zdravotných záznamov.
+
+Podobné závery prináša aj riešenie \textit{DocGenie}, ktoré využíva pokročilé ASR modely v kombinácii s veľkými jazykovými modelmi, ako je napríklad GPT-4, na generovanie kompletných lekárskych správ z klinických rozhovorov. Autori poukazujú najmä na výrazné skrátenie času potrebného na tvorbu dokumentácie a zníženie chýb spôsobených manuálnym zapisovaním údajov.
+
 \section{Veľké jazykové modely v zdravotníctve}
 
 Veľké jazykové modely (LLM -- Large Language Models) sa rýchlo stávajú transformačným nástrojom v oblasti spracovania klinických textov a neštruktúrovaných dát v zdravotníctve, vrátane klinických poznámok, rozhovorov medzi lekárom a pacientom či elektronických zdravotných záznamov. LLM dokážu nielen generovať text, ale aj analyticky spracovávať kontext, extrahovať kľúčové informácie a sumarizovať obsah, čo má potenciál významne podporovať klinické rozhodovanie, dokumentáciu a rýchlejšiu orientáciu v komplexných dátach. Takéto modely môžu asistovať pri spracovaní veľkého množstva neštruktúrovaných textových záznamov, odpovedať na odborné otázky či sumarizovať lekárske poznámky, čím zvyšujú efektivitu a znižujú administratívnu záťaž zdravotníckeho personálu. Zároveň však odborná literatúra zdôrazňuje potrebu dôkladnej validácie modelov a odborného dohľadu, keďže výstupy generované LLM nemusia vždy presne odrážať klinickú realitu a môžu obsahovať nepresnosti.
